@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #00a2c6;
+}
+header {
+  padding: 5px;
+  /* border: 1px solid blue; */
+}
+#web-logo {
+  float: left;
+  /* border: 1px solid blue; */
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline;
+  padding: 0 25px 0 0;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+}
