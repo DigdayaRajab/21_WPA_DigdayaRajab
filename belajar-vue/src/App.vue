@@ -1,7 +1,3 @@
-<!-- <script setup> -->
-<!-- // import HelloWorld from "./components/HelloWorld.vue";
-// import TheWelcome from "./components/TheWelcome.vue"; -->
-
 <script>
 export default {
   data() {
@@ -32,28 +28,14 @@ export default {
 </script>
 
 <template>
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-  <main>
-    <TheWelcome />
-  </main> -->
-  <!-- 
-  <div id="app">
-    <button @click="count++">Count is: {{ count }}</button>
-  </div> -->
-
   <header>
     <nav id="sideNav">
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#detail1">Detail</a></li>
-        <li><a href="#tools">Tools</a></li>
+        <li><a href="#tools">Services</a></li>
+        <li><a href="#ourwork">Our Works</a></li>
+        <li><a href="#testi">Testimonial</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#creator">Created By</a></li>
       </ul>
     </nav>
     <img src="../src/assets/img/menu-icon.png" id="menuBtn" />
@@ -111,7 +93,7 @@ export default {
     <!-- Tools Container -->
     <article id="tools">
       <div class="tools-text">
-        <h1>Tools</h1>
+        <h1>Services</h1>
         <p>Tools atau Software desain yang kami gunakan :)</p>
       </div>
       <div class="tools-row">
@@ -130,6 +112,78 @@ export default {
           <img src="../src/assets/img/corel-logo.png" />
           <h4>Corel Draw</h4>
           <p>Software Desain Grafis berbasis Vektor, untuk Desain ilustrasi dan visual</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- OurWorks -->
+    <article id="ourwork">
+      <div class="ourwork-text">
+        <h1>Our Works</h1>
+      </div>
+      <div class="tools-row">
+        <figure class="ourwork-card">
+          <div class="image"><img src="../src/assets/img/sesi1.jpg" alt="obj1" /></div>
+          <figcaption>
+            <div class="date"><span class="day">23</span><span class="month">Juli</span></div>
+            <h3>3D Object Text</h3>
+            <p>Dibuat dengan blender 3D text agar tampak timbul.</p>
+          </figcaption>
+        </figure>
+        <figure class="ourwork-card">
+          <div class="image"><img src="../src/assets/img/sesi3.jpg" alt="obj2" /></div>
+          <figcaption>
+            <div class="date"><span class="day">30</span><span class="month">Juli</span></div>
+            <h3>3D Lowpoly Computer</h3>
+            <p>Dibuat dengan blender 3D simple lowpoly computer</p>
+          </figcaption>
+        </figure>
+        <figure class="ourwork-card">
+          <div class="image"><img src="../src/assets/img/sesi2.jpg" alt="cdr1" /></div>
+          <figcaption>
+            <div class="date"><span class="day">01</span><span class="month">Juli</span></div>
+            <h3>Digital Imaging</h3>
+            <p>Dibuat dengan Photoshop simple digital imaging</p>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- testi -->
+    <article id="testi">
+      <div class="testi-text">
+        <h1>Testimoni</h1>
+        <p>Dari Mereka yang menggunakan jasa kami</p>
+      </div>
+      <div class="tools-row">
+        <div class="tools-col">
+          <figure class="testi-card">
+            <blockquote>Calvin: Sometimes when I'm talking with others, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.</blockquote>
+            <div class="author">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample1.jpg" alt="sq-sample1" />
+              <h5>Pelican Steve <span> LittleSnippets</span></h5>
+            </div>
+          </figure>
+        </div>
+        <div class="tools-col">
+          <figure class="testi-card hover">
+            <blockquote>
+              Thank you. before I begin, I'd like everyone to notice that my report is in a professional, clear plastic binder...When a report looks this good, you know it'll get an A. That's a tip kids. Write it down.
+            </blockquote>
+            <div class="author">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample24.jpg" alt="sq-sample24" />
+              <h5>Max Conversion<span> LittleSnippets</span></h5>
+            </div>
+          </figure>
+        </div>
+        <div class="tools-col">
+          <figure class="testi-card">
+            <blockquote>My behaviour is addictive functioning in a disease process of toxic co-dependency. I need holistic healing and wellness before I'll accept any responsibility for my actions.</blockquote>
+            <div class="author">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample29.jpg" alt="sq-sample29" />
+              <h5>Eleanor Faint<span> LittleSnippets</span></h5>
+            </div>
+          </figure>
         </div>
       </div>
     </article>
